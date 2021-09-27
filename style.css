@@ -3,22 +3,28 @@
    border: 5px solid rgb(146 223 236 / 70%);
    border-radius: 5%;
    background-color: rgba(176, 193, 194, 0.151);
-   max-width: 1000px;
+   max-width: 1120px;
 }
 .intro {
    text-align: center;
-   margin: 0;
+   margin: 10px 0px 10px;
+   
 }
 .about {
    color: blue;
    text-align: center;
    margin: 0;
    font-style: italic;
+
+}
+.name {
+   text-decoration: underline;
+   text-decoration-color: crimson;
 }
 
 .title {
    display: block;
-   margin: 0 auto;
+   margin: -15px auto -15px;
    text-align: center;
    color: rgb(0, 255, 115);
 }
@@ -42,7 +48,7 @@
    display: flex;
    justify-content: center;
    margin: 0 auto;
-   margin: 0px 0px 0px 0px;
+   max-width: 375px;
   
 }
 .spisok {
