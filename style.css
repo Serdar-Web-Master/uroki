@@ -1,5 +1,44 @@
+.container {
+   margin: 5px 5px 5px 5px;
+   border: 5px solid rgb(146 223 236 / 70%);
+   border-radius: 5%;
+}
 
-
-.hover :hover {
+.title {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   color: rgb(0, 255, 115);
+}
+.li {
+   font-size: 18px;
+   margin: 5px 5px 5px 5px;
+  
+}
+.li a {
+   text-decoration: none;
+  
+}
+.li {
+   line-height: 25px;
+}
+.li :hover {
    color: red;
+   text-decoration: underline;
+}
+.uroki {
+   display: flex;
+   justify-content: center;
+
+
+   margin: 0 auto;
+   margin: 0px 0px 0px 0px;
+  
+}
+.spisok {
+   list-style: none;
+   margin: 0;
+   
+   padding: 0;
+   
 }
