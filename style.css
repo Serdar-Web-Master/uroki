@@ -1,7 +1,18 @@
 .container {
-   margin: 5px 5px 5px 5px;
+   margin: 5px auto;
    border: 5px solid rgb(146 223 236 / 70%);
    border-radius: 5%;
+   background-color: rgba(176, 193, 194, 0.151);
+   max-width: 1000px;
+}
+.intro {
+   text-align: center;
+   margin: 0;
+}
+.about {
+   color: blue;
+   text-align: center;
+   margin: 0;
 }
 
 .title {
@@ -29,8 +40,6 @@
 .uroki {
    display: flex;
    justify-content: center;
-
-
    margin: 0 auto;
    margin: 0px 0px 0px 0px;
   
@@ -38,7 +47,6 @@
 .spisok {
    list-style: none;
    margin: 0;
-   
-   padding: 0;
-   
+   margin-left: 6px;
+   padding: 0; 
 }
