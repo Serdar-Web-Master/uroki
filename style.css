@@ -44,8 +44,11 @@
    max-height: 150px;
    object-fit: cover;
    display: block;
+   transform: translateX(1060px);
    animation-name: move;
    animation-duration: 3s;
+   animation-delay: 5s;
+   animation-fill-mode: forwards;
 
 }
 
@@ -62,7 +65,7 @@
 
 @keyframes move {
 0%{
- transform: translateX(1060px);
+ 
 }
 
 100% {
